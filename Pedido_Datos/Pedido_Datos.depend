@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1566861023 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\pedido_datos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
