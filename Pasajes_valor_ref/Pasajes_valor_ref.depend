@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1566946641 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\pasajes_valor_ref\main.c
+	<stdio.h>
+	<stdlib.h>
+
