@@ -15,9 +15,17 @@ typedef struct{
  * \return ePersona
  *
  */
-ePersona alta(ePersona per);
+void alta(ePersona per[], int tam);
 
-void mostrar(ePersona per);
+/** \brief
+ *
+ * \param per ePersona
+ * \return void
+ *
+ */
+void mostrar(ePersona per[],int tam);
+
+void inicializarEstructura(ePersona per[], int tam);
 
 
 #endif // PERSONA_H_INCLUDED

@@ -4,11 +4,13 @@
 
 int main()
 {
-    ePersona unaPersona;
+    ePersona unaPersona[3];
 
-    unaPersona = alta(unaPersona);
+    inicializarEstructura(unaPersona,3);
 
-    mostrar(unaPersona);
+    alta(unaPersona,3);
+
+    mostrar(unaPersona,3);
 
     return 0;
 }

@@ -2,24 +2,59 @@
 #include <stdlib.h>
 #include "persona.h"
 
-ePersona alta(ePersona per)
-{
-    printf("\nApellido: ");
-    fflush(stdin);
-    gets(per.apellido);
-    printf("\nNombre: ");
-    fflush(stdin);
-    gets(per.nombre);
-    printf("\nEdad: ");
-    scanf("%d",&per.edad);
-    per.isEmpty = 0;
 
-    return per;
+void inicializarEstructura(ePersona per[], int tam)
+{
+    int i;
+
+    for(i=0; i<tam;i++)
+    {
+        per[i].isEmpty  = 1;
+    }
+
 
 }
 
-void mostrar(ePersona per)
+
+void alta(ePersona per[],int tam)
 {
-    printf("Apellido\tNombre\tEdad\n");
-    printf("%s\t%s\t%d",per.apellido,per.nombre,per.edad);
+    int i;
+
+
+    for(i=0;i<tam;i++)
+    {
+        if(per[i].isEmpty==1)
+        {
+            printf("\nApellido: ");
+            fflush(stdin);
+            gets(per[i].apellido);
+            printf("\nNombre: ");
+            fflush(stdin);
+            gets(per[i].nombre);
+            printf("\nEdad: ");
+            scanf("%d",&per[i].edad);
+            per[i].isEmpty = 0;
+            printf("\n---------------------------------------------------");
+        }
+
+        else
+        {
+            printf("\nNo hay lugar");
+        }
+
+    }
+
+
+
+}
+
+void mostrar(ePersona per[],int tam)
+{
+    int i;
+    printf("\nApellido\tNombre\tEdad\n");
+    for(i=0;i<tam;i++)
+    {
+         printf("\n%s\t%s\t%d",per[i].apellido,per[i].nombre,per[i].edad);
+    }
+
 }
