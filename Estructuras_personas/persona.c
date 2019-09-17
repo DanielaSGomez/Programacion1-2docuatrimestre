@@ -48,13 +48,30 @@ void alta(ePersona per[],int tam)
 
 }
 
-void mostrar(ePersona per[],int tam)
+//void mostrar(ePersona per[],int tam)
+//{
+//    int i;
+//    printf("\nApellido\tNombre\tEdad\n");
+//    for(i=0;i<tam;i++)
+//    {
+//         printf("\n%s\t%s\t%d",per[i].apellido,per[i].nombre,per[i].edad);
+//    }
+//
+//}
+
+
+void mostrarUno(ePersona per)
+{
+    printf("\n%s\t%s\t%d",per.apellido,per.nombre,per.edad);
+
+}
+
+void mostrarTodos(ePersona pers[],int tam)
 {
     int i;
-    printf("\nApellido\tNombre\tEdad\n");
     for(i=0;i<tam;i++)
     {
-         printf("\n%s\t%s\t%d",per[i].apellido,per[i].nombre,per[i].edad);
+        mostrarUno(pers[i]);
     }
 
 }

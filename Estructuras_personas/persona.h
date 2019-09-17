@@ -23,9 +23,13 @@ void alta(ePersona per[], int tam);
  * \return void
  *
  */
-void mostrar(ePersona per[],int tam);
+//void mostrar(ePersona per[],int tam);
+
+void mostrarUno(ePersona per);
+void mostrarTodos(ePersona pers[],int tam);
 
 void inicializarEstructura(ePersona per[], int tam);
+
 
 
 #endif // PERSONA_H_INCLUDED

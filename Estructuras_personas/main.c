@@ -10,7 +10,7 @@ int main()
 
     alta(unaPersona,3);
 
-    mostrar(unaPersona,3);
+    mostrarTodos(unaPersona,3);
 
     return 0;
 }
