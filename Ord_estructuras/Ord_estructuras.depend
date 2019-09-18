@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1568767151 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\ord_estructuras\arraypersona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arrayPersona.h"
+
+1568766807 c:\users\alumno\desktop\programacion1-2docuatrimestre\ord_estructuras\arraypersona.h
+
+1568766128 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\ord_estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arrayPersona.h"
+

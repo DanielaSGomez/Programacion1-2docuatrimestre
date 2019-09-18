@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1568682164 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\estructuras_personas\main.c
+1568760076 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\estructuras_personas\main.c
 	<stdio.h>
 	<stdlib.h>
 	"persona.h"
 
-1568682139 c:\users\alumno\desktop\programacion1-2docuatrimestre\estructuras_personas\persona.h
+1568760076 c:\users\alumno\desktop\programacion1-2docuatrimestre\estructuras_personas\persona.h
 
-1568682178 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\estructuras_personas\persona.c
+1568760076 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\estructuras_personas\persona.c
 	<stdio.h>
 	<stdlib.h>
 	"persona.h"
