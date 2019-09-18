@@ -11,13 +11,15 @@ void inicializarEstructura(ePersona per[], int tam)
     {
         per[i].isEmpty  = 1;
     }
-
 }
 
 
-void alta(ePersona per[],int tam)
+void alta(ePersona per[],int tam,ePais pais[], int tamPais)
 {
     int i;
+    int j;
+    int opPais;
+    int opElegida;
     for(i=0;i<tam;i++)
     {
         if(per[i].isEmpty==1)
@@ -36,6 +38,15 @@ void alta(ePersona per[],int tam)
             scanf("%d",&per[i].fechaNac.mes);
             printf("\nAnio de nacimiento: ");
             scanf("%d",&per[i].fechaNac.anio);
+
+            do{
+                for(j=0;j<tamPais;j++)
+                {
+                    printf("%d)%s",i+1,pais[i].pais);
+                }
+
+            }while(opPais>5);
+
 
             per[i].isEmpty = 0;
             printf("\n---------------------------------------------------");
@@ -102,4 +113,27 @@ void ordenarEstructura(ePersona per[], int tam)
             }
         }
     }
+}
+
+
+void filtrar(ePersona per[],int tamP,ePais pais[],int tamPais)
+{
+    int i,j;
+    int auxPais;
+
+
+    for(i=0;i<tamPais;i++)
+    {
+        if(pais[i].id == auxPais){
+            for(j=0;j<tamP;j++)
+            {
+                if(per[j].ePaisId == auxPais)
+                {
+                    printf("\n%s\t%s",per[j].nombre,pais[i].pais);
+                }
+            }
+            break;
+        }
+    }
+
 }
