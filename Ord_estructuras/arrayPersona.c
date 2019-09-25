@@ -38,14 +38,15 @@ void alta(ePersona per[],int tam,ePais pais[], int tamPais)
             scanf("%d",&per[i].fechaNac.mes);
             printf("\nAnio de nacimiento: ");
             scanf("%d",&per[i].fechaNac.anio);
-
+            printf("Elija un pais: ")
             do{
                 for(j=0;j<tamPais;j++)
                 {
                     printf("%d)%s",i+1,pais[i].pais);
+                    scanf("%d",&opPais);
                 }
 
-            }while(opPais>5);
+            }while(opPais>tamPais);
 
 
             per[i].isEmpty = 0;
