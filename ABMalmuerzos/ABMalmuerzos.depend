@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1569886562 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\input.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<time.h>
+	"input.h"
+
+1569886570 c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\input.h
+
+1569886954 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"input.h"
+	"empleados.h"
+
+1569886394 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<time.h>
+	"input.h"
+	"empleados.h"
+
+1569886312 c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.h
+
