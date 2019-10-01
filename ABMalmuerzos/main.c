@@ -29,7 +29,7 @@ int main()
                 //ordenarEstructura(unaPersona,3);
                 break;
             case 3:
-                //listarEmplados(unEmpleado,CANTEMP);
+                listarEmplados(unEmpleado,CANTEMP);
                 break;
 
             case 4:

@@ -83,7 +83,7 @@ eFecha getFecha(void)
    return ingreso;
 }
 
-eSector getSector(eSector sec[], int tamSec)
+int getSector(eSector sec[], int tamSec)
 {
     int i;
     int idSector;
@@ -98,8 +98,11 @@ eSector getSector(eSector sec[], int tamSec)
 
         idSector = getValidInt("Digite una opcion de sector",1,tamSec);
 
+
+
     }while(idSector<=0 || idSector >3);
 
+    return idSector;
 }
 
 int addEmpleado(eEmpleado emp[], int tam, eSector sec[], int tamSec)
@@ -125,7 +128,7 @@ int addEmpleado(eEmpleado emp[], int tam, eSector sec[], int tamSec)
         getSex(emp[hayLugar].sexo);
         emp[hayLugar].salario = getValidFloat("Ingrese salario: ","Error",0,999999999);
         emp[hayLugar].ingreso = getFecha();
-        getSector(emp[hayLugar].idSector,tamSec);
+        emp[hayLugar].idSector = getSector(sec,tamSec);
         emp[hayLugar].isEmpty = OCUPADO;
 
 
@@ -134,5 +137,23 @@ int addEmpleado(eEmpleado emp[], int tam, eSector sec[], int tamSec)
     }
 
     return retorno;
+}
+
+void mostrarUnEmpleado(eEmpleado emp, eSector sec)
+{
+    printf("\n%s\t\t%s\t\t%d\t\t%d/%d/%d\t\t%s",emp.apellido,emp.nombre,emp.legajo,emp.ingreso.dia,emp.ingreso.mes,emp.ingreso.anio,sec.descripcion);
+
+}
+
+
+void listarEmplados(eEmpleado emp[],int tam, eSector sec[], int tamSec)
+{
+    int i;
+
+    printf("APELLIDO\tNOMBRE\t\tLegajo\t\tFECHA NAC\ttSECTOR");
+    for(i=0;i<tam;i++)
+    {
+        mostrarUnEmpleado(emp[i], sec[i]);
+    }
 }
 

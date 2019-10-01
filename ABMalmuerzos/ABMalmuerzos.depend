@@ -10,13 +10,13 @@
 
 1569886570 c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\input.h
 
-1569886954 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\main.c
+1569891938 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\main.c
 	<stdio.h>
 	<stdlib.h>
 	"input.h"
 	"empleados.h"
 
-1569886394 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.c
+1569892079 source:c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
