@@ -28,3 +28,47 @@
 
 1569886312 c:\users\alumno\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.h
 
+1570238008 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\input.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<time.h>
+	"input.h"
+
+1570238008 c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\input.h
+
+1570253606 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"input.h"
+	"empleados.h"
+	"almuerzos.h"
+
+1570253298 c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.h
+
+1570253572 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<time.h>
+	"input.h"
+	"empleados.h"
+	"almuerzos.h"
+
+1570238876 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\almuerzos.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<time.h>
+	"input.h"
+	"empleados.h"
+	"almuerzos.h"
+
+1570239003 c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\almuerzos.h
+

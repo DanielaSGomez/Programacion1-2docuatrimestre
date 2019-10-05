@@ -24,6 +24,15 @@ typedef struct{
 
 
 eFecha getFecha(void);
-
+int getSector(eSector sec[], int tamSec);
+int initEmpleados(eEmpleado emp[], int tam);
+int buscarLugarLibre(eEmpleado emp[], int tam);
+int buscarExisteId(eEmpleado emp[], int tam, int legajo);
+int addEmpleado(eEmpleado emp[], int tam, eSector sec[], int tamSec);
+void mostrarUnEmpleado(eEmpleado emp, eSector sec[], int tamSec);
+void listarEmplados(eEmpleado emp[],int tam, eSector sec[], int tamSec);
+int deleteEmpleado(eEmpleado emp[], int tam,eSector sec[], int tamSec);
+int modifyEmpleado(eEmpleado emp[], int tam, eSector sec[], int tamSec);
+int orderEmpleadosDescendente(eEmpleado emp[], int tam, eSector sec[], int tamSec);
 
 #endif // EMPLEADOS_H_INCLUDED
