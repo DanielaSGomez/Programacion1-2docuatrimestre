@@ -6,6 +6,7 @@
 #define CANTEMP 3
 #define CANTSEC 3
 #define CANTMENU 2
+#define CANTALM 20
 
 
 int main()
@@ -14,11 +15,13 @@ int main()
     eMenu menues[CANTMENU] = {{1,"Ensalada",60.50},{2,"Milanesa",150.50}};
     eSector sectores[CANTSEC] = {{1,"RRHH"},{2,"Laboratorio"},{3,"Gerencia"}};
     initEmpleados(unEmpleado,CANTEMP);
+    eAlmuerzo almuerzo[CANTALM];
+    initAlmuerzos(almuerzo,CANTALM);
 
     int op_menu;
     do{
             printf("\nDigite una opcion: ");
-            printf("\n1)Dar de alta empleado.\n2)Eliminar empleado.\n3)Mostrar todos empleados\n4)Modificar empleado\n5)Ordenar empleados\n7)Salir.");
+            printf("\n1)Dar de alta empleado.\n2)Eliminar empleado.\n3)Mostrar todos empleados\n4)Modificar empleado\n5)Ordenar empleados\n6)Añadir almuerzo\n9)Salir.");
             scanf("%d",&op_menu);
 
             switch(op_menu){
@@ -38,8 +41,14 @@ int main()
             case 5:
                 orderEmpleadosDescendente(unEmpleado,CANTEMP,sectores,CANTSEC);
                 break;
+            case 6:
+                addAlmuerzo(almuerzo,CANTALM,unEmpleado,CANTEMP,sectores,CANTSEC,menues,CANTMENU);
+                break;
+            case 7:
+                mostrarListaAlmuerzos(almuerzo,CANTALM,unEmpleado,CANTEMP,sectores,CANTSEC,menues,CANTMENU);
+                break;
             }
-    }while(op_menu!=7);
+    }while(op_menu!=9);
 
 
     return 0;

@@ -81,6 +81,23 @@ eFecha getFecha(void)
    return ingreso;
 }
 
+int getMenu(eMenu menues[], int tamMenu)
+{
+    int i;
+    int idMenu;
+    do{
+        for(i=0;i<tamMenu;i++)
+        {
+            printf("\nID: %d: %s %f",menues[i].codM,menues[i].descripcion,menues[i].importe);
+        }
+
+        idMenu = getValidInt("\nDigite una opcion de menu: ",1,tamMenu);
+
+    }while(idMenu<=0 || idMenu>tamMenu);
+
+    return idMenu;
+}
+
 int getSector(eSector sec[], int tamSec)
 {
     int i;
@@ -94,10 +111,33 @@ int getSector(eSector sec[], int tamSec)
         }
         idSector = getValidInt("Digite una opcion de sector",1,tamSec);
 
-    }while(idSector<=0 || idSector >3);
+    }while(idSector<=0 || idSector >tamSec);
 
     return idSector;
 }
+
+int getEmpleadosSolo(eEmpleado emp[], int tam, eSector sec[], int tamSec)
+{
+    int i;
+    int idEmp;
+
+    do{
+        for(i=0;i<tam;i++)
+        {
+            if(emp[i].isEmpty == OCUPADO)
+            {
+                printf("\nLegajo: %d %s %s",emp[i].legajo,emp[i].apellido,emp[i].nombre);
+            }
+
+
+        }
+        idEmp = getValidInt("\nDigite una opcion de empleado: ",1,tam);
+
+    }while(idEmp <=0 || idEmp>tam);
+
+    return idEmp;
+}
+
 
 int addEmpleado(eEmpleado emp[], int tam, eSector sec[], int tamSec)
 {

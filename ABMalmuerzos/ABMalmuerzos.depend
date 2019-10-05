@@ -39,7 +39,7 @@
 
 1570238008 c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\input.h
 
-1570253606 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\main.c
+1570312108 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\main.c
 	<stdio.h>
 	<stdlib.h>
 	"input.h"
@@ -48,7 +48,7 @@
 
 1570253298 c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.h
 
-1570253572 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.c
+1570300114 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\empleados.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -59,7 +59,7 @@
 	"empleados.h"
 	"almuerzos.h"
 
-1570238876 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\almuerzos.c
+1570312087 source:c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\almuerzos.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -70,5 +70,5 @@
 	"empleados.h"
 	"almuerzos.h"
 
-1570239003 c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\almuerzos.h
+1570295000 c:\users\daniela\desktop\programacion1-2docuatrimestre\abmalmuerzos\almuerzos.h
 

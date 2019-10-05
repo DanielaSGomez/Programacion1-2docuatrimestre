@@ -5,6 +5,7 @@ typedef struct{
     char descripcion[51];
     float importe;
 
+
 }eMenu;
 
 
@@ -13,6 +14,7 @@ typedef struct{
     int codMenu;
     int legajo;
     eFecha fechaAlm;
+    int isEmpty;
 }eAlmuerzo;
 
 
