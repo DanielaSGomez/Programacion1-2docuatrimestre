@@ -1,0 +1,8 @@
+parseo lee caracter linea por line y con la coma lo separa
+se le pasa el nombre del archivo y un opuntero al array, 
+
+len la cantidad de elementos
+fscanf el dato en vez de tomarlo desde teclado lo toma desde el archivo, pero actua igual que el scanf
+neceista un especificador de formato         %[^,]  omite la coma
+
+
