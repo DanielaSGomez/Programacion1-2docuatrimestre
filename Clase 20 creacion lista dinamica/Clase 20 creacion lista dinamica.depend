@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1559606292 source:e:\clase 20 creacion lista dinamica\f.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"f.h"
+	"utn.h"
+
+1559606224 e:\clase 20 creacion lista dinamica\f.h
+
+1559606252 source:e:\clase 20 creacion lista dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"f.h"
+	"utn.h"
+
+1559606186 source:e:\clase 20 creacion lista dinamica\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1558897308 e:\clase 20 creacion lista dinamica\utn.h
+
+1559606292 source:c:\users\alumno\desktop\clase 20_21\clase 20 creacion lista dinamica\f.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"f.h"
+	"utn.h"
+
+1559606224 c:\users\alumno\desktop\clase 20_21\clase 20 creacion lista dinamica\f.h
+
+1558897308 c:\users\alumno\desktop\clase 20_21\clase 20 creacion lista dinamica\utn.h
+
+1559606252 source:c:\users\alumno\desktop\clase 20_21\clase 20 creacion lista dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"f.h"
+	"utn.h"
+
+1559606186 source:c:\users\alumno\desktop\clase 20_21\clase 20 creacion lista dinamica\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1559606292 source:c:\users\alumno\desktop\clase 20 creacion lista dinamica\f.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"f.h"
+	"utn.h"
+
+1559606224 c:\users\alumno\desktop\clase 20 creacion lista dinamica\f.h
+
+1559606252 source:c:\users\alumno\desktop\clase 20 creacion lista dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"f.h"
+	"utn.h"
+

@@ -1,0 +1,8 @@
+Realizar el ejercicio del apunte con:
+bibliotecas:
+persona
+setter y getter:
+setEdad
+setNombre
+getEdad
+getNombre
